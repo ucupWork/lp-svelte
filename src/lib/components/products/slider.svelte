@@ -71,14 +71,14 @@ let productList = [
                 <figure class="mb-2">
                   <img src={src} alt={`${name} | Muscle first products`} class="border rounded-lg ml-auto mr-auto" />
                 </figure>
-                <div class="rounded-lg p-4 bg-gray-600 flex flex-col">
+                <div class="rounded-lg p-4 bg-gray-200 flex flex-col">
                   <div>
-                    <h5 class="text-white text-2xl font-bold leading-none">
+                    <h5 class=" text-gray-600 text-xl font-bold leading-none">
                       {name}
                     </h5>
                   </div>
                   <div class="flex items-center">
-                    <div class="text-lg text-white font-light">
+                    <div class="text-lg text-yellow-400 font-bold ">
                       Rp.{price}
                     </div>
                     <button href="javascript:;" class="rounded-full bg-gray-800 text-white hover:bg-white hover:text-black hover:shadow-xl focus:outline-none w-10 h-10 flex ml-auto transition duration-300">

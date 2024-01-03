@@ -11,10 +11,12 @@
     <div class="grid grid-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
       <!-- Logo section -->
       <div class="">
-        <h6
-          class="mb-4 flex items-start justify-center font-semibold uppercase md:justify-start ">
-          <img src={Logo} alt="Musclefirst logo" class="h-16">
-        </h6>
+        <a href="/">
+          <h6
+            class="mb-4 flex items-start justify-center font-semibold uppercase md:justify-start ">
+            <img src={Logo} alt="Musclefirst logo" class="h-16">
+          </h6>
+        </a>
         <p class="text-sm text-center md:text-start">
           Muscle First dalam recovery dan memelihara massa otot, membangun tubuh ideal, memenuhi nutrisi harian tubuh, meningkatkan stamina, dan meningkatkan fokus.
         </p>
@@ -73,12 +75,12 @@
           >
         </p>
         <p>
-          <a href="#!"
+          <a href="/ketentuan-dan-kondisi"
             >Ketentuan dan Kondisi</a
           >
         </p>
         <p>
-          <a href="#!"
+          <a href="/disclaimer-kesehatan"
             >Disclaimer Kesehatan</a
           >
         </p>
@@ -90,7 +92,7 @@
           Tentang Perusahaan
         </h6>
         <p class="mb-4 flex items-start justify-start md:justify-start text-sm">
-          Jl. Ruko Mutiara Palem Raya No.mor 37 blok D1, Daerah Khusus Ibukota Jakarta 11710        </p>
+          Jl. Ruko Mutiara Palem Raya No. 37 Blok D1, Daerah Khusus Ibukota Jakarta 11710        </p>
         <p class="mb-4 flex items-start justify-start md:justify-start ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -104,8 +106,8 @@
           </svg>
           Musclefirst@example.com
         </p>
+        <a href="https://wa.me/6281909710951?text=Hi!%20Saya%20mau%20konsultasi%20mengenai%20aturan%20konsumsi%20produk%20dari%20Muscle%20first"> 
         <p class="mb-4 flex items-start justify-start md:justify-start ">
-          <a href="https://wa.me/6281909710951?text=Hi!%20Saya%20mau%20konsultasi%20mengenai%20aturan%20konsumsi%20produk%20dari%20Muscle%20first"> 
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -117,8 +119,8 @@
                 clip-rule="evenodd" />
             </svg>
             Whatsapp
-          </a>
-        </p>
+          </p>
+        </a>
       </div>
     </div>
   </div>
@@ -128,7 +130,7 @@
     <span>© 2024 Copyright:</span>
     <a
       class="font-semibold text-neutral-100 "
-      href="https://musclefirst.co.id/"
+      href="/"
       >Muscle First</a
     >
   </div>
